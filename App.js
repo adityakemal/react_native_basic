@@ -4,7 +4,6 @@ import About from './screens/about'
 import Detail from './screens/reviewDetail'
 import * as Font from 'expo-font';
 import {AppLoading} from 'expo';
-
 import Navigator from './routes/drawer'
 
 
@@ -19,7 +18,7 @@ export default function App() {
   const [loadFont, setLoadFont] = useState(false)
   if(loadFont){
     return (
-      <Navigator />
+        <Navigator />
     );
   }else{
     return(

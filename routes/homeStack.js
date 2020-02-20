@@ -15,7 +15,7 @@ const screens = {
         //INI UNTUK COSTUM HEADER:
         navigationOptions : ({navigation}) => {
             return {
-                headerTitle : ()=> <Header navigation={navigation} title='Home TimeZone'/>,
+                header : ()=> <Header navigation={navigation} title='Home TimeZone'/>,
             }
         }
     },
@@ -36,6 +36,7 @@ const HomeStack = createStackNavigator(screens, {
         // headerTintColor : 'black',
         headerStyle : {
             backgroundColor : '#eee',
+            height: 84
         }
 
     }

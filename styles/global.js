@@ -6,17 +6,25 @@ export const globalStyle = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
-        // paddingTop: 60
+        paddingTop: 60
     },
     text: {
         fontFamily: 'lobster',
-        fontSize: 24
+        fontSize: 24,
+        marginBottom : 18
+    },
+    titleTextBox :{
+        backgroundColor: 'skyblue',
+        marginTop: 6,
+        borderRadius : 10,
     },
     titleText: {
-        padding: 10,
-        marginTop: 6,
-        backgroundColor: 'skyblue',
-        textAlign: 'center'
+        padding: 15,
+        textAlign: 'center',
+        fontSize : 14,
+        textTransform : 'uppercase',
+        fontWeight : 'bold',
+        color : 'maroon',
     }
 });
 

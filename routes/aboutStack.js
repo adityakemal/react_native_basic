@@ -16,7 +16,7 @@ const screens = {
         // COSTUM WITH COMPONENT
         navigationOptions : ({navigation}) => {
             return {
-                headerTitle : ()=> <Header navigation={navigation} title='About TimeZone' />,
+                header : ()=> <Header navigation={navigation} title='About TimeZone' />,
             }
         }
     },
