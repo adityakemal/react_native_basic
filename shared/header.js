@@ -1,7 +1,7 @@
 //ini component untuk mereplace header navigation
 
 import React from 'react';
-import {StyleSheet, Text, View, Image, ImageBackground} from 'react-native';
+import {StyleSheet, Text, View, Image, ImageBackground, Modal} from 'react-native';
 import {MaterialCommunityIcons} from '@expo/vector-icons';
 
 export default function Header({navigation, title}) {

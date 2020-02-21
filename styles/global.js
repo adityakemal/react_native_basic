@@ -25,7 +25,7 @@ export const globalStyle = StyleSheet.create({
         textTransform : 'uppercase',
         fontWeight : 'bold',
         color : 'maroon',
-    }
+    },
 });
 
 export const aboutStyle = StyleSheet.create({
@@ -41,3 +41,47 @@ export const aboutStyle = StyleSheet.create({
         color: 'coral'
     }
 });
+
+
+export const modalStyle = StyleSheet.create({
+    modalContainer : {
+        flex : 1,
+        backgroundColor : 'whitesmoke',
+        width : '100%',
+        paddingHorizontal :35,
+        paddingVertical :35,
+    },
+    close : {
+        alignSelf : 'flex-end',
+        marginRight: 10,
+        padding :10
+
+        
+    },    
+    toggle : {
+        alignSelf : 'center',
+        padding :10
+    },
+
+    input : {
+        padding : 10,
+        fontSize : 18,
+        textAlign : 'left',
+        borderWidth : 1,
+        borderRadius : 10,
+        borderColor : 'maroon',
+        marginBottom :10,
+        color : 'black'
+    },
+    buttonForm : {
+        borderRadius : 10,
+        backgroundColor: 'skyblue',
+        padding : 10,
+        textAlign : 'center'
+    },
+    buttonFormText : {
+        borderRadius : 10,
+        fontSize : 18,
+        textAlign : 'center'
+    }
+})
