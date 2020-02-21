@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Text, View, FlatList, Button, TextInput,  TouchableOpacity} from 'react-native';
 import {globalStyle, modalStyle} from '../styles/global' 
+import CustomButton from '../shared/customButton'
 import {Formik} from 'formik'
 //yup validation
 import * as yup from 'yup';
@@ -66,10 +67,11 @@ export default function HomeForm({dataForm}){
                     />
                     <Text style={modalStyle.errorsText}>{formikProps.touched.rating && formikProps.errors.rating}</Text> 
 
-                    <TouchableOpacity onPress={formikProps.handleSubmit} style={modalStyle.buttonForm}>
+                    {/* <TouchableOpacity onPress={formikProps.handleSubmit} style={modalStyle.buttonForm}>
                         <Text style={modalStyle.buttonFormText} >Submit ae</Text>
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
                     {/* <Button title='submit' color='maroon'  /> */}
+                    <CustomButton text='submit' onPress={formikProps.handleSubmit} />
                 </View>
             )}
             </Formik>
