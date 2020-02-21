@@ -52,8 +52,8 @@ export const modalStyle = StyleSheet.create({
         paddingVertical :35,
     },
     close : {
-        alignSelf : 'flex-end',
-        marginRight: 10,
+        alignSelf : 'flex-start',
+        marginLeft: 10,
         padding :10
 
         
@@ -70,7 +70,7 @@ export const modalStyle = StyleSheet.create({
         borderWidth : 1,
         borderRadius : 10,
         borderColor : 'maroon',
-        marginBottom :10,
+        marginTop :10,
         color : 'black'
     },
     buttonForm : {
@@ -83,5 +83,8 @@ export const modalStyle = StyleSheet.create({
         borderRadius : 10,
         fontSize : 18,
         textAlign : 'center'
+    },
+    errorsText : {
+        color : 'red'
     }
 })
